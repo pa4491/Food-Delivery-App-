@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MAD Food Delivery App</string>
+    <string name="rice">Rice</string>
+    <string name="menu">Menu</string>
+    <string name="pizza">Pizza</string>
+    <string name="kottu">Kottu</string>
+    <string name="pasta">Pasta</string>
+    <string name="drinks">Drinks</string>
+    <string name="FriedRice">FriedRice</string>
+    <string name="rice_and_curry">Rice And Curry</string>
+</resources>

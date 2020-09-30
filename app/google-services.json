@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "726917963666",
+    "firebase_url": "https://mad-food-delivery-app.firebaseio.com",
+    "project_id": "mad-food-delivery-app",
+    "storage_bucket": "mad-food-delivery-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:726917963666:android:25a0c6ab0ca9e4cb002b4b",
+        "android_client_info": {
+          "package_name": "com.example.madfooddeliveryapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "726917963666-j1jhpiujc832a0g3ntort81hg14k3na3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWGdOsyfw5cX7_0RzdMeLLZc5AJ93udfI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "726917963666-j1jhpiujc832a0g3ntort81hg14k3na3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
