@@ -7,15 +7,13 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
+public class activity_kottu extends AppCompatActivity {
     Button b1,b2,b3,b4,b5;
-
-    //linking to admin side
-    Button adminnn;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_kottu);
+
 
         b1 = findViewById(R.id.rice_button);
         b2 = findViewById(R.id.Pizza_button);
@@ -23,24 +21,7 @@ public class MainActivity extends AppCompatActivity {
         b4 = findViewById(R.id.pasta_button);
         b5 = findViewById(R.id.Drinks_button);
 
-        //trying to connecting to admin
-
-        adminnn = findViewById(R.id.admin);
-
-        adminnn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent newI = new Intent(getApplicationContext(), admin.class);
-                startActivity(newI);
-            }
-        });
-
-
-
-
-
-
-            //navigation
+        //navigation
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -76,8 +57,5 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(newI);
             }
         });
-
     }
-
-    
 }

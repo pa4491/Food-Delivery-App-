@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
-    tools:context=".MainActivity">
+    tools:context=".activity_kottu">
 
 
     <TextView
@@ -70,15 +70,16 @@
             android:layout_height="match_parent"
             android:layout_marginBottom="26dp"
             android:orientation="horizontal">
+
             <Button
-                android:id="@+id/admin"
+                android:id="@+id/kottu_button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:layout_marginLeft="10dp"
                 android:background="@drawable/custom_white_button"
                 android:fontFamily="@font/acme"
-                android:text="try admin"
+                android:text="@string/kottu"
                 android:textColor="@color/black" />
             <Button
                 android:id="@+id/rice_button"
@@ -102,16 +103,6 @@
                 android:text="@string/pizza"
                 android:textColor="@color/black" />
 
-            <Button
-                android:id="@+id/kottu_button"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="10dp"
-                android:layout_marginLeft="10dp"
-                android:background="@drawable/custom_white_button"
-                android:fontFamily="@font/acme"
-                android:text="@string/kottu"
-                android:textColor="@color/black" />
 
             <Button
                 android:id="@+id/pasta_button"
@@ -137,7 +128,8 @@
         </LinearLayout>
     </HorizontalScrollView>
 
-<!-- used for item list-->
+
+    <!-- used for item list-->
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView1"
         android:layout_width="380dp"
@@ -158,14 +150,16 @@
 
             <ImageView
                 android:id="@+id/imageView2"
-                android:layout_width="163dp"
-                android:layout_height="161dp"
+                android:layout_width="166dp"
+                android:layout_height="166dp"
+                android:scaleX="1"
+                android:scaleY="1.3"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@mipmap/ic_launcher_foreground" />
+                app:srcCompat="@drawable/kottu02" />
 
             <TextView
                 android:id="@+id/carrot_juice_title"
@@ -173,7 +167,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="30dp"
                 android:layout_marginEnd="32dp"
-                android:text="Fried Rice"
+                android:text="Chicken Kottu"
                 android:textColor="@color/black"
                 android:textSize="24sp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -189,7 +183,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="30dp"
                 android:layout_marginEnd="40dp"
-                android:text="Rs.300.00"
+                android:text="Rs.400.00"
                 android:textColor="@color/black"
                 android:textSize="26sp"
                 android:textStyle="bold"
@@ -201,7 +195,7 @@
                 app:layout_constraintVertical_bias="0.442" />
 
             <Button
-                android:id="@+id/r1"
+                android:id="@+id/k1"
                 android:layout_width="96dp"
                 android:layout_height="40dp"
                 android:layout_marginTop="14dp"
