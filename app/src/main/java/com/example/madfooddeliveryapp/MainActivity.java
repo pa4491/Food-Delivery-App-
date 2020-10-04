@@ -8,11 +8,11 @@ import android.view.View;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
-    Button b1,b2,b3,b4,b5;
+    Button b1,b2,b3,b4,b5,b6;
 
-    //linking to admin side
-    Button adminnn;
-    @Override
+
+
+        @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
@@ -22,25 +22,11 @@ public class MainActivity extends AppCompatActivity {
         b3 = findViewById(R.id.kottu_button);
         b4 = findViewById(R.id.pasta_button);
         b5 = findViewById(R.id.Drinks_button);
+        b6 = findViewById(R.id.b6);
 
-        //trying to connecting to admin
-
-        adminnn = findViewById(R.id.admin);
-
-        adminnn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent newI = new Intent(getApplicationContext(), admin.class);
-                startActivity(newI);
-            }
-        });
-
-
-
-
-
-
+        
             //navigation
+
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -73,6 +59,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent newI = new Intent(getApplicationContext(), activity_drinks.class);
+                startActivity(newI);
+            }
+        });
+
+        b6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent newI = new Intent(getApplicationContext(), activity_dashboard.class);
                 startActivity(newI);
             }
         });

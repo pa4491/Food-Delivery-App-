@@ -8,4 +8,12 @@
     <string name="drinks">Drinks</string>
     <string name="FriedRice">FriedRice</string>
     <string name="rice_and_curry">Rice And Curry</string>
+    <string-array name="Spinner_Items" >
+        <item> Rice </item>
+        <item> Pizza </item>
+        <item> Kottu </item>
+        <item> Pasta </item>
+        <item> Drinks </item>
+
+    </string-array>
 </resources>
